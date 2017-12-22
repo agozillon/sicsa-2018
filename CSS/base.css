@@ -1,3 +1,70 @@
+
+/*I used verdana for the header text*/
+
+.background-style {
+	/*background:linear-gradient(#712177, #AC97AF);*/
+	background-color:#712177;
+}
+
+.container-style {
+	background-color: floralwhite;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	border-width:5px 5px 0px 0px;
+	border-left:#AC97AF;
+	border-right:#AC97AF;
+	border-top:0;
+	border-bottom:0;
+	border-style: solid;
+}
+
+.content-style {
+	min-height:380px;
+	padding:10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.title-style {
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	padding:5px;
+}
+
+.paragraph-style {
+	padding:10px;
+}
+
+.header-background-img-style {
+	max-width:100%;
+	height:auto;
+} 
+
+.brand-invis {}
+.header-style {}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+	.brand-invis{
+      visibility:hidden;
+	  display:none;
+	}
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+      font-size:14px!important;
+  }
+}
+
+.footer-style {
+	background-color:#AC97AF;
+	min-height:50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Examples CSS Below */
+
 h1 { }
 h2 { }
 h3 { }
