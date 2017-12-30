@@ -1,9 +1,17 @@
 
 /*I used verdana for the header text*/
 
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background-color:#712177!important;
+}
+
 .background-style {
-	/*background:linear-gradient(#712177, #AC97AF);*/
 	background-color:#712177;
+	height: 100vh;
 }
 
 .container-style {
@@ -16,6 +24,7 @@
 	border-top:0;
 	border-bottom:0;
 	border-style: solid;
+	margin-bottom:10px;	
 }
 
 .content-style {
