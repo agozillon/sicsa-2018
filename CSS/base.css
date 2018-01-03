@@ -73,7 +73,7 @@ body {
 }
 
 a.external {
-    background: url(/Images/Icon_External_Link.png) center right no-repeat;
+    background: url(Icon_External_Link.png) center right no-repeat;
     padding-right: 13px;
 }
 
