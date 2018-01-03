@@ -9,6 +9,13 @@ body {
 	background-color:#712177!important;
 }
 
+h1 {
+	text-align:center!important;
+	font-weight:bold!important;
+	font-size:18px!important;
+	padding:5px!important;
+}
+
 .background-style {
 	background-color:#712177;
 	height: 100vh;
