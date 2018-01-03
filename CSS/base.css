@@ -72,8 +72,8 @@ body {
 	padding-bottom: 10px;
 }
 
-a[href^="https://"] {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png)     center right no-repeat;
+a.external {
+    background: url(/Images/external.png) center right no-repeat;
     padding-right: 13px;
 }
 
