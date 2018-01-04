@@ -18,13 +18,13 @@ h1 {
 
 .background-style {
 	background-color:#712177;
-	height: 100vh;
+	height:100vh;
 }
 
 .container-style {
-	background-color: floralwhite;
-	padding-left: 0px !important;
-	padding-right: 0px !important;
+	background-color:floralwhite;
+	padding-left:0px!important;
+	padding-right:0px!important;
 	border-width:5px 5px 0px 0px;
 	border-left:#AC97AF;
 	border-right:#AC97AF;
@@ -51,6 +51,15 @@ h1 {
 	padding:10px;
 }
 
+.footer-sicsa-logo-style {
+  max-height:50px;
+}
+
+.footer-rgu-logo-style {
+  max-height:50px; 
+  float:right;	
+}
+
 .header-background-img-style {
 	max-width:100%;
 	height:auto;
@@ -58,6 +67,28 @@ h1 {
 
 .brand-invis {}
 .header-style {}
+
+.footer-style {
+	background-color:#AC97AF;
+	min-height:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+@media screen and (max-width: 768px) {
+	.footer-rgu-logo-style {
+		float:none;
+		margin-bottom:5px;
+	}
+	
+	.footer-style {
+		text-align:center;
+		text-align:-webkit-center;
+		text-align:-moz-center;
+		text-align:-o-center;
+		text-align:-ms-center;
+	}
+}
 
 @media screen and (max-width: 992px) and (min-width: 769px) {
 	.brand-invis{
@@ -72,16 +103,9 @@ h1 {
   }
 }
 
-.footer-style {
-	background-color:#AC97AF;
-	min-height:50px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
 a.external {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png) center right no-repeat;
-    padding-right: 13px;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png) center right no-repeat;
+    padding-right:13px;
 }
 
 /* Examples CSS Below */
@@ -92,11 +116,11 @@ h3 { }
 
 .right { float:right; }
 .left  { float:left;  }
-.centre, .center { float:center; }
+.centre, .center { text-align:center; }
 
-.text-centre, .text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
+.text-centre, .text-center { text-align:center; }
+.text-left { text-align:left; }
+.text-right { text-align:right; }
 
 .c10  { float:left; width:10%;  }
 .c20  { float:left; width:20%;  }
