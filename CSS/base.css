@@ -108,6 +108,8 @@ a.external {
     padding-right:13px;
 }
 
+a.third:hover { color: DeepPink; }
+
 /* Examples CSS Below */
 
 h1 { }
