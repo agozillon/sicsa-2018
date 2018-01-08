@@ -110,6 +110,9 @@ a.external {
 
 a.third:hover { color: DeepPink; }
 
+a.fourth{ color:black; }
+a.fourth:hover{color:DeepPink;}
+
 /* Examples CSS Below */
 
 h1 { }
