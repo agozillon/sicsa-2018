@@ -89,8 +89,17 @@ h1 {
 		text-align:-ms-center;
 	}
 }
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+	.navbar {
+		font-size:11px;
+	}
+	
+	.dropdown-menu {
+		font-size:11px!important;
+	}
+}
 
-@media screen and (max-width: 992px) and (min-width: 769px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
 	.brand-invis{
       visibility:hidden;
 	  display:none;
