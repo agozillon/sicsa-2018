@@ -91,7 +91,7 @@ h1 {
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
 	.navbar {
-		font-size:11px;
+		font-size:9.4px;
 	}
 	
 	.dropdown-menu {
