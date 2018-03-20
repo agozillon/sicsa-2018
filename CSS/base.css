@@ -76,6 +76,11 @@ h1 {
 	padding-bottom:10px;
 }
 
+.home-visibility {
+	visibility: hidden;
+	display:none!important;
+}
+
 @media screen and (max-width: 768px) {
 	.footer-rgu-logo-style {
 		float:none;
@@ -91,6 +96,11 @@ h1 {
 	}
 }
 @media screen and (max-width: 1000px) and (min-width: 768px) {
+	.home-visibility {
+		visibility:visible;
+		display:block!important;
+	}
+	
 	.navbar {
 		font-size:9.4px;
 	}
@@ -101,6 +111,11 @@ h1 {
 }
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
+	.home-visibility {
+		visibility:visible;
+		display:block!important;
+	}
+	
 	.brand-invis{
       visibility:hidden;
 	  display:none;
