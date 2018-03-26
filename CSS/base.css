@@ -95,14 +95,24 @@ h1 {
 		text-align:-ms-center;
 	}
 }
-@media screen and (max-width: 1000px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
 	.home-visibility {
 		visibility:visible;
 		display:block!important;
 	}
 	
 	.navbar {
-		font-size:9.4px;
+		font-size:8.2px;
+	}
+
+	.dropdown-menu {
+		font-size:11px!important;
+	}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+	.navbar {
+		font-size:12px;
 	}
 
 	.dropdown-menu {
